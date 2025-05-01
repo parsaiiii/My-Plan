@@ -1,14 +1,17 @@
 <template>
-  <h1>text</h1>
+  <Navbar></Navbar>
 </template>
 
 <script>
+import Navbar from "../src/components/NavbarTest.vue";
 export default {
-  data() {
-    return {};
-  },
-  methods: {},
+  components: { Navbar },
 };
 </script>
 
-<style></style>
+<style>
+body {
+  color: wheat;
+  background: #333;
+}
+</style>
